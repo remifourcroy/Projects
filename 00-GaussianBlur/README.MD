@@ -29,8 +29,12 @@ Gaussian Blur is a widely used image processing technique that smooths an image 
 ## Requirements
 Ensure you have the following installed before running the code:
 
-- **Python 3.7+**
-- **NumPy** (tested with version 1.20+)
+- **Python 3.10.13**
+- **NumPy** 
+- **Matplotlib**
+- **Pillow**
+- **SciPy**
+- **OpenCV** (for comparison purposes)
 
 Install NumPy using pip if it’s not already installed:
 ```bash
