@@ -1,6 +1,6 @@
 # Custom Gaussian Blur Function with NumPy
 
-This project demonstrates a custom implementation of the Gaussian Blur operation using **NumPy**. The functionality replicates the widely used `cv2.GaussianBlur` function from the OpenCV library, providing an alternative for scenarios where OpenCV might not be available or required.
+This project demonstrates my custom implementation of the Gaussian Blur operation using **NumPy**. The functionality replicates the widely used `cv2.GaussianBlur` function from the OpenCV library, providing an alternative for scenarios where OpenCV might not be available or required.
 
 ---
 
@@ -8,9 +8,6 @@ This project demonstrates a custom implementation of the Gaussian Blur operation
 - [Overview](#overview)
 - [Features](#features)
 - [Requirements](#requirements)
-- [How It Works](#how-it-works)
-- [Usage](#usage)
-- [Example](#example)
 - [References](#references)
 
 ---
