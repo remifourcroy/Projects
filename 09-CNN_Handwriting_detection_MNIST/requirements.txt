@@ -1,0 +1,5 @@
+torch
+torchvision
+PyQt5
+numpy
+Pillow
