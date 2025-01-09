@@ -4,7 +4,7 @@ This project demonstrates a handwritten digit recognition system using PyTorch, 
 
 1. **Training a CNN model (`train.py`)**
 2. **Visualizing predictions (`load_model_load_from_dataset.py`)**
-3. **Interactive digit prediction using a drawing canvas (`load_model.py`)**
+3. **Interactive digit prediction using a drawing canvas (`load_model_write_digit.py`)**
 
 ---
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
    - Loads the trained model.
    - Displays 4 random images from the MNIST test dataset with their predicted labels.
 
-3. **`load_model.py`**
+3. **`load_model_write_digit.py`**
    - Provides an interactive GUI for handwritten digit recognition.
    - Allows users to draw a digit and see the model's prediction.
 
@@ -74,10 +74,10 @@ python load_model_load_from_dataset.py
 
 ### 3. Interactive Predictions
 
-Run `load_model.py` to use the interactive drawing canvas:
+Run `load_model_write_digit.py` to use the interactive drawing canvas:
 
 ```bash
-python load_model.py
+python load_model_write_digit.py
 ```
 
 - Draw a digit on the canvas.
@@ -92,7 +92,7 @@ python load_model.py
 .
 ├── train.py
 ├── load_model_load_from_dataset.py
-├── load_model.py
+├── load_model_write_digit.py
 ├── mnist_cnn_net.pth
 ├── requirements.txt
 ├── README.md
