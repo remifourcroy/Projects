@@ -36,14 +36,15 @@ pip install -r requirements.txt
 ## Files Overview
 
 1. **`train.py`**
+   - Downloads the MNIST dataset (if not present in directory)
    - Trains a CNN model on the MNIST dataset.
    - Saves the trained model to `mnist_cnn_net.pth`.
 
-2. **`load_model_load_from_dataset.py`**
+3. **`load_model_load_from_dataset.py`**
    - Loads the trained model.
    - Displays 4 random images from the MNIST test dataset with their predicted labels.
 
-3. **`load_model_write_digit.py`**
+4. **`load_model_write_digit.py`**
    - Provides an interactive GUI for handwritten digit recognition.
    - Allows users to draw a digit and see the model's prediction.
 
@@ -59,7 +60,7 @@ Run the `train.py` script to train the CNN model:
 python train.py
 ```
 
-This will save the trained model as `mnist_cnn_net.pth`.
+This will download the dataset, train the model on MNIST dataset and save the trained model as `mnist_cnn_net.pth`.
 
 ### 2. Batch Predictions
 
