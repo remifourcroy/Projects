@@ -1,4 +1,4 @@
-# Handwritten Digit Recognition
+# Handwritten Digit Recognition (PyTorch)
 
 This project demonstrates a handwritten digit recognition system using PyTorch, trained on the MNIST dataset. The project includes:
 
