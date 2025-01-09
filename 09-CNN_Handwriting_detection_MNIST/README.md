@@ -3,7 +3,7 @@
 This project demonstrates a handwritten digit recognition system using PyTorch, trained on the MNIST dataset. The project includes:
 
 1. **Training a CNN model (`train.py`)**
-2. **Visualizing predictions (`load_modell1.py`)**
+2. **Visualizing predictions (`load_model_load_from_dataset.py`)**
 3. **Interactive digit prediction using a drawing canvas (`load_model.py`)**
 
 ---
@@ -39,7 +39,7 @@ pip install -r requirements.txt
    - Trains a CNN model on the MNIST dataset.
    - Saves the trained model to `mnist_cnn_net.pth`.
 
-2. **`load_modell1.py`**
+2. **`load_model_load_from_dataset.py`**
    - Loads the trained model.
    - Displays 4 random images from the MNIST test dataset with their predicted labels.
 
@@ -63,10 +63,10 @@ This will save the trained model as `mnist_cnn_net.pth`.
 
 ### 2. Batch Predictions
 
-Run `load_modell1.py` to display and predict digits from the MNIST test dataset:
+Run `load_model_load_from_dataset.py` to display and predict digits from the MNIST test dataset:
 
 ```bash
-python load_modell1.py
+python load_model_load_from_dataset.py
 ```
 
 - The UI displays 4 random images and their predicted labels.
@@ -91,7 +91,7 @@ python load_model.py
 ```
 .
 ├── train.py
-├── load_modell1.py
+├── load_model_load_from_dataset.py
 ├── load_model.py
 ├── mnist_cnn_net.pth
 ├── requirements.txt
